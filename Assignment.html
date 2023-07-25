@@ -1,0 +1,50 @@
+<html>
+<head>
+
+
+</head>
+<body>
+    
+<form action="index.php" method="get">
+    <fieldset>
+        <legend >Student Form</legend>
+    <label>Enter name</label><br>
+<input type="text" max="12" min="6"  placeholder="name" required="true"><br><br>
+<label>Enter Password</label><br>
+<input type="text" max="12" min="8"  placeholder="password" required="true"><br><br>
+<label>Enter Rollnumber</label><br>
+<input type="text" pattern=[A-Z]{4}[0-9]{2}[A-Z]{1}[0-9]{2}[A-Z]{1}[0-9]{3} placeholder="Roll
+number" required="true"><br><br>
+Select Country<br>
+<select >
+    <option  selected>Pakistan</option>
+    <option  >America</option>
+    <option  >Australia</option>
+    <option  >England</option>
+    <option >China</option>
+    <option  >Turkey</option>
+    <option  >Italy</option>
+    <option  >koria</option>
+    <option  >Russia</option>
+    <option  >France</option>
+</select><br><br>
+Gender<br>
+<input type="radio" name="g1" required="true">Female<br>
+<input type="radio" name="g1" required="true">Male<br><br>
+Skilss according to title of webpage<br>
+<input type="checkbox" name="skill[]" >Html<br>
+<input type="checkbox" name="skill[]">CSS<br>
+<input type="checkbox" name="skill[]" >Javascript<br><br>
+ Date of Birth<br>
+<input type="date"  max='1998-01-01' required="true"><br>
+Select picture<br>
+<input type="file" required="true"><br>
+<p>Enter available hours</p>
+<input type="time" required="true">
+<input type="submit">
+</fieldset>
+</form>
+
+
+</body>
+</html>
