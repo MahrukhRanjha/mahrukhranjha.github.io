@@ -180,24 +180,32 @@
         justify-content: center;
         align-items: center;
      }
-     @media screen and (max-width:415px){
+     @media screen and (max-width:420px){
         .header{
             flex-direction: column;
-            
+           
+		width:100%;
+        border-bottom:6px solid black; 
+        display:flex;
+        padding-bottom:0px;
+        align-items: center;
+    
         }
         .main{
 		padding:5%;
         height:100%;
 	}
         .left-side{
-          width:100%;
+            width:30%;
+		height:80%;
           display:flex;
           justify-content: center;
           align-items: center;
           flex-direction: column;
         }
         .right-side{
-            width:100%;
+            width:70%;
+            height:80%;
         }
         .content1{
             flex-direction: column;
