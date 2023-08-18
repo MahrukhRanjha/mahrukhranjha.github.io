@@ -16,13 +16,14 @@
 	}
     body,html{
         height:100%;
+        box-sizing: border-box;
     }
 	.main{
 		padding:3%;
         height:100%;
 	}
     .header{
-		width:100%;
+		width:1280px;
         border-bottom:6px solid black; 
         display:flex;
         padding-bottom:0px;
@@ -30,10 +31,11 @@
     }
    
     .left-side{
-		width:30%;
+		width:380px;
 		height:80%;
 		float:left;
 		padding:6px;
+        position: relative;
     }
     .left-side p{
         font-family: sans-serif;
@@ -48,7 +50,7 @@
 		justify-content: center;
 		align-items: center;
         font-family:sans-serif;
-        width:70%;
+        width:900px;
         height:80%;
         border:2px solid black;
         
@@ -56,7 +58,7 @@
 	
 	
     .box2{
-		width:100%;
+		width:1280px;
         
        text-align: right;
 
@@ -69,7 +71,7 @@
         font-size: 22px;
         
     }
-    .content1{width:100%;
+    .content1{width:1280px;
         height:40%;
     display:flex;
     justify-content: space-between;
@@ -95,13 +97,13 @@
      }
      
      .content2{
-        width:100%;
+        width:1280px;
         height:37%;
     display:flex;
     padding:10px;
      }
-     .contentimg2{ width:24%;
-        height:70%;
+     .contentimg2{ width:300px;
+        height:180px;
      float:right;
      padding:10px;}
      .contentimg2 h5{
@@ -118,7 +120,7 @@
      }
      .content3{
         height:30%;
-        width:100%;
+        width:1280px;
         display:flex;
         justify-content: space-between;
      }
@@ -140,7 +142,7 @@
      }
      .content4{
         height:30%;
-        width:100%;
+        width:1280px;
         display:flex;
         justify-content: space-between;
      }
@@ -151,7 +153,7 @@
         text-align: center;
      }
      .content4img{
-        width:35%;
+        width:470px;
         display:flex;
         flex-direction: column;
      }
@@ -161,8 +163,9 @@
       width:100%;
      }
      .content4text{
-        width:65%;
+        width:790px;
         display:flex;
+        
      }
      .content4text h5{
         width:50%;
@@ -171,32 +174,28 @@
      }
      .footer{
         height:33%;
-        width:100%;
+        width:1280px;
         display: flex;
         justify-content: center;
         align-items: center;
      }
      @media screen and (max-width:667px){
-        .header{
-            flex-direction: column;
-            
-        }
+        
         .main{
-		padding:5%;
-        height:100%;
-	}
+        padding:0%;}
+
         .left-side{
-          width:100%;
-          display:flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-        }
-        .right-side{
-            width:100%;
-        }
+		width:380px;
+		height:80%;
+		
+    }
+     .right-side{
+        width:900px;
+        height: 80%;
+     }
+        
         .content1{
-            flex-direction: column;
+        
             height:auto;
         }
         .contentimg{
@@ -212,34 +211,27 @@
 
         }
         .content2{
-            flex-direction: column;
+          
             height:auto;
         }
         .content-list{
             width:100%;
         }
-        .contentimg2{
-            width:100%;
-            padding:0px;
-            
-        }
+        
         .content3{
-            flex-direction: column;
-            height:auto;
+            width:1280px;
+            
         }
         .content3img{
             width:100%;
             display:flex;
            
         }
-        .content3img img{
-            height:240px;
-            width:100%;
-        }
+       
         .content3imgg{
             width:100%;
             justify-content: center;
-           padding:10px 0px;
+           
             
         }
         .content3imgg img{
@@ -247,16 +239,10 @@
         }
         .content4{
             display: flex;
-            flex-direction: column;
-            height:auto;
+            
+           
         }
-        .content4img{
-            width:100%;
-        }
-        .content4text{
-            width:100%;
-            padding:0px 0px 8px 0px;
-        }
+        
         .content4text >h5{
             width:50%;
         }
@@ -265,13 +251,11 @@
         }
      } @media screen and (max-width:602px){
         .main{
-            padding:9%;
-            height:100%;
-        }
+        padding:0%;}
 
      }@media screen and (max-width:480px)
-     {.contenttext{
-        text-align: left;}
+     {.main{
+        padding:0%;}
         .content3img img{
             height:210px;
             
