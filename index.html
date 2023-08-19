@@ -15,7 +15,7 @@
         -webkit-box-sizing: border-box;
         -ms-box-sizing: border-box;
     }
-
+  
     body {
         margin: 0px;
         font-family: sans-serif;
@@ -159,6 +159,7 @@
         width: 560px;
         display: flex;
         justify-content: space-between;
+        
     }
 
     .content3imgg {
@@ -222,7 +223,8 @@
         align-items: center;
     }
 
-    @media screen and (max-width:420px) {
+   
+    @media screen and (max-width:414px) {
         .header {
             flex-direction: column;
             width: 100%;
@@ -269,20 +271,19 @@
             width: 100%;
         }
 
-        .content1 p {
+        .content1 p{
             font-size: 10px;
-        text-align: justify;
+            text-align: justify;
         }
 
         .contentimg {
             width: 100%;
-            height: 300px;
+            height: 237px;
         }
 
         .contentimg img {
             height: 90%;
         }
-
         .contenttext {
             width: 100%;
             position: relative;
@@ -311,13 +312,14 @@
 
         .content3 {
             flex-direction: column;
-            height: auto;
+            height:auto;
             width: 100%;
         }
 
         .content3img {
             width: 100%;
             display: flex;
+            height:220px;
 
         }
 
@@ -326,7 +328,7 @@
         }
 
         .content3img img {
-            height: 240px;
+            height:180px;
             width: 100%;
         }
 
@@ -355,6 +357,7 @@
         .content4text {
             width: 100%;
             padding: 0px 0px 8px 0px;
+            height:140px;
         }
 
         .content4text>h5 {
@@ -378,7 +381,38 @@
             width: 100%;
             padding: 0px;
         }
+    }@media screen and (max-width:390px){
+                .main {
+            height:100%;
+            width: 100%;
+            padding: 10% 10px;
+            font-size: 10px !important;
+        }
+        .contentimg {
+        width: 100%;
+        height: 218px;
+
+    } .content3img {
+            width: 100%;
+            display: flex;
+           
+
+        }
+        .content3img img {
+            height:190px;
+            width: 100%;
+        }
+        .content4text {
+        width: 100%;
+        display: flex;
+        height: 140px;
+
+        
     }
+    
+    }
+        
+       
 </style>
 
 <body>
