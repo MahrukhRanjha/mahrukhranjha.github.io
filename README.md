@@ -1,3 +1,3 @@
 "# mahrukhranjha.github.io" 
-![Uploading Screenshot (832).png…]()
+Screenshot(832).png
 
