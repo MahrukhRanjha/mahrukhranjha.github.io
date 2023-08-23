@@ -1,3 +1,3 @@
 "# mahrukhranjha.github.io" 
-Screenshot(832).png
+![alt text](screenshots/Screenshot(832).png "Description goes here")
 
